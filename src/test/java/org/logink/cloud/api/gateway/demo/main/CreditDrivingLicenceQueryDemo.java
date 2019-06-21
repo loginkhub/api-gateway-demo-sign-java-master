@@ -6,22 +6,22 @@ import org.logink.cloud.api.gateway.demo.util.PostUtil;
 
 /**
  * logink cloud gateway api demo
- * ¼İÊ»Ö¤²éÑ¯½Ó¿Ú
- * ÖØÒªÌáÊ¾ÈçÏÂ£º
- * ´úÂëÇë´Ó github path:https://github.com/loginkhub/api-gateway-demo-sign-java-master ÏÂÔØ
- * ¶ÔÓ¦²âÊÔÀà£º /src/test/java/org/logink/cloud/api/gateway/demo/main/CreditDrivingLicenceQueryDemo.java
+ * é©¾é©¶è¯æŸ¥è¯¢æ¥å£
+ * é‡è¦æç¤ºå¦‚ä¸‹ï¼š
+ * ä»£ç è¯·ä» github path:https://github.com/loginkhub/api-gateway-demo-sign-java-master ä¸‹è½½
+ * å¯¹åº”æµ‹è¯•ç±»ï¼š /src/test/java/org/logink/cloud/api/gateway/demo/main/CreditDrivingLicenceQueryDemo.java
  */
 public class CreditDrivingLicenceQueryDemo {
     public static void main(String[] args) {
-        String appkey = "ÄúµÄappkey";
-        String appsecret = "ÄúµÄappsecret";
+        String appkey = "æ‚¨çš„appkey";
+        String appsecret = "æ‚¨çš„appsecret";
         String url = "https://gateway.logink.org/credit/drivingLicence/logink";
-        //ÇëÇóµÄbody,json¸ñÊ½
-        String body = "{\"vehicleNumber\":\"*********\","   //³µÁ¾ÅÆÕÕºÅ
-                + "\"vehicleClassification\":\"*********\","//³µÁ¾·ÖÀà
-                + "\"owner\":\"*********\"}";//³µÁ¾ËùÓĞÈË
+        //è¯·æ±‚çš„body,jsonæ ¼å¼
+        String body = "{\"vehicleNumber\":\"*********\","   //è½¦è¾†ç‰Œç…§å·
+                + "\"vehicleClassification\":\"*********\","//è½¦è¾†åˆ†ç±»
+                + "\"owner\":\"*********\"}";//è½¦è¾†æ‰€æœ‰äºº
         try {
-            // PostUtil·â×°ÁËheaderÉèÖÃºÍÇ©Ãû¼ÆËã,È»ºó·¢ËÍrequest²¢»ñÈ¡response
+            // PostUtilå°è£…äº†headerè®¾ç½®å’Œç­¾åè®¡ç®—,ç„¶åå‘é€requestå¹¶è·å–response
             Response response = PostUtil.postString(url, body, appkey, appsecret);
             System.out.println(JSON.toJSONString(response));
         } catch (Exception e) {
