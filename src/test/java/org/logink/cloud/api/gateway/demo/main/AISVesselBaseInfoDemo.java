@@ -15,7 +15,7 @@ public class AISVesselBaseInfoDemo {
     public static void main(String[] args) {
         String appkey = "您的appkey";
         String appsecret = "您的appsecret";
-        String url = "https://gateway.logink.org/ais/getVesselBaseInfo";
+        String url = "https://gateway.logink.cn/ais/getVesselBaseInfo";
         //请求的body,json格式
         String body = "{\"key\": \"******\"}";//船舶参数，可以是船名、呼号、MMSI、IMO等
         try {
