@@ -16,7 +16,7 @@ public class RailwayQueryByContainerNumberDemo {
 	public static void main(String[] args) {
 		String appkey = "您的appkey";
 		String appsecret = "您的appsecret";
-		String url = "https://gateway.logink.org/railway-query/findByContainerNumber";
+		String url = "https://gateway.logink.cn/railway-query/findByContainerNumber";
 		//请求的body,json格式
 		String body = "{\"containerNumber\": \"******\"}";//集装箱箱号
 		try {

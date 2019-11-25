@@ -15,7 +15,7 @@ public class CreditEnterpriseQueryDemo {
     public static void main(String[] args) {
         String appkey = "您的appkey";
         String appsecret = "您的appsecret";
-        String url = "https://gateway.logink.org/credit/enterpriseQuery/logink";
+        String url = "https://gateway.logink.cn/credit/enterpriseQuery/logink";
         //请求的body,json格式
         String body = "{\"enterpriseName\":\"******\","   //企业名称
                 + "\"provinceCode\":\"******\"}";    //省份行政区划代码

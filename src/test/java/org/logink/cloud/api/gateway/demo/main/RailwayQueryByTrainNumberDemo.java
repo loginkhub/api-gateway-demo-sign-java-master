@@ -16,7 +16,7 @@ public class RailwayQueryByTrainNumberDemo {
 	public static void main(String[] args) {
 		String appkey = "您的appkey";
 		String appsecret = "您的appsecret";
-		String url = "https://gateway.logink.org/railway-query/findByTrainNumber";
+		String url = "https://gateway.logink.cn/railway-query/findByTrainNumber";
 		//请求的body,json格式
 		String body = "{\"railwayWagonNumber\": \"******\"," +//车号
 				"    \"shippingNodeNumber\": \"******\"}"; // 运单号

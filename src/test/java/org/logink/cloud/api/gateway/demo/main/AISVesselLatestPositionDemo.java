@@ -15,7 +15,7 @@ public class AISVesselLatestPositionDemo {
     public static void main(String[] args) {
         String appkey = "您的appkey";
         String appsecret = "您的appsecret";
-        String url = "https://gateway.logink.org/ais/getVesselLatestPosition";
+        String url = "https://gateway.logink.cn/ais/getVesselLatestPosition";
         //请求的body,json格式
         String body = "{\"mmsi\":\"*********\","   //mmsi
                 + "\"partyFunctionCode\":\"******\"}";  //partyFunctionCode

@@ -16,7 +16,7 @@ public class MessageSendSmsDemo {
 	public static void main(String[] args) {
 		String appkey = "您的appkey";
 		String appsecret = "您的appsecret";
-		String url = "https://gateway.logink.org/message/sms/sendSms";
+		String url = "https://gateway.logink.cn/message/sms/sendSms";
 		//请求的body,json格式
 		String body = "{\"mobiles\":\"******\","   //手机号码
 	    		+ "\"content\":\"******\", "  //短信内容

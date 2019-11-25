@@ -15,7 +15,7 @@ public class CheckVehicleExistDemo {
     public static void main(String[] args) {
         String appkey = "您的appkey";
         String appsecret = "您的appsecret";
-        String url = "https://gateway.logink.org/credit/vehicleQuery/checkVehicleExist";
+        String url = "https://gateway.logink.cn/credit/vehicleQuery/checkVehicleExist";
         //请求的body,json格式
         String body = "{\"vehicleNumber\":\"******\","   //车辆牌照号
                 + "\"licensePlateTypeCode\":\"******\"}";    //牌照类型代码(1=蓝色；2=黄色)

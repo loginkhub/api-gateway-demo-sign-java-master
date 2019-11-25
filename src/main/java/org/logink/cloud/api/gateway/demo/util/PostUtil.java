@@ -39,7 +39,7 @@ import com.alibaba.fastjson.JSON;
  */
 public class PostUtil {
 	//网关的host地址
-	public static String HOST = "https://gateway.logink.org";
+	public static String HOST = "https://gateway.logink.cn";
     
 
     /**

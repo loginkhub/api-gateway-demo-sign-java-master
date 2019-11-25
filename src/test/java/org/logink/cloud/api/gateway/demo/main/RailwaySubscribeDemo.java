@@ -16,7 +16,7 @@ public class RailwaySubscribeDemo {
 	public static void main(String[] args) {
 		String appkey = "您的appkey";
 		String appsecret = "您的appsecret";
-		String url = "https://gateway.logink.org/railway-query/subscribe";
+		String url = "https://gateway.logink.cn/railway-query/subscribe";
 		//请求的body,json格式
 		String body = "{\"taskId\":\"******\"," // 订阅标识符
 				+ "\"railwayWagonNumber\":\"******\", " // 车号
