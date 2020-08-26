@@ -58,11 +58,11 @@ public class YunYanWaybillCheckDemo {
 				+ "		\"loadingCountrySubdivisionCode\": \"\","  //  装货地址的国家行政区划代码或国别代码
 				+ "		\"goodsReceiptPlace\": \"\","  //  收货地址
 				+ "		\"receiptCountrySubdivisionCode\": \"\","  //  收货地址的国家行政区划代码或国别代码
-				+ "		\"driver\": {"  //  驾驶员
+				+ "		\"driver\": [{"  //  驾驶员
 				+ "			\"driverName\": \"******\","  //  驾驶员姓名
 				+ "			\"drivingLicense\": \"******\","  //  机动车驾驶员身份证编号
 				+ "			\"driverLicenseNumber\": \"******\""  //  机动车驾驶证编号
-				+ "		},"
+				+ "		}],"
 				+ "		\"goodsInfo\": [{"  //  货物信息
 				+ "			\"descriptionOfGoods\": \"******\","  //  货物名称
 				+ "			\"cargoTypeClassificationCode\": \"******\","  //  货物类型分类代码
