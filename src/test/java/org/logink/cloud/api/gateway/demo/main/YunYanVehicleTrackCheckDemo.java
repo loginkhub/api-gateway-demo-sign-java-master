@@ -18,7 +18,7 @@ public class YunYanVehicleTrackCheckDemo {
 		String appsecret = "您的appsecret";
 		String url = "https://gateway.logink.cn/yunyan/vehicleTrackCheck";
 		//请求的body,json格式
-		String body = "{\"shippingNoteNumber\": \"******\","  //  运单号
+		String body = "{\"shippingNoteNumber\": \"******\","  //  运单号 
 				+ "\"vehiclePlateColorCode\": \"******\","  //  车牌号
 				+ "\"vehicleNumber\": \"******\","  //  车牌颜色
 				+ "\"receiptCountrySubdivisionCode\": \"******\","  //  收货地址的国家行政区划代码
