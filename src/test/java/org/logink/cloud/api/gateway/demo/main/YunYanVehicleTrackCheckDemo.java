@@ -16,7 +16,7 @@ public class YunYanVehicleTrackCheckDemo {
 	public static void main(String[] args) {
 		String appkey = "您的appkey";
 		String appsecret = "您的appsecret";
-		String url = "https://gateway.logink.cn/yunyan/driverInfoCheck";
+		String url = "https://gateway.logink.cn/yunyan/vehicleTrackCheck";
 		//请求的body,json格式
 		String body = "{\"shippingNoteNumber\": \"******\","  //  运单号
 				+ "\"vehiclePlateColorCode\": \"******\","  //  车牌号
